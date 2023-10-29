@@ -2,15 +2,16 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import { Navbar } from './components/Navbar/Navbar'
+import { NavBar } from './components/Navbar/Navbar';
 import { ItemListContaines } from './components/ItemListContainer/ItemListContaines'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
     <>
       <div>
-        <Navbar />
+        <NavBar />
         <ItemListContaines greeting='saludo app'/>
       </div>
 
