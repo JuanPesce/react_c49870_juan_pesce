@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-export function NavBar() {
+export function Navegador() {
   return (
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
             <Container>
